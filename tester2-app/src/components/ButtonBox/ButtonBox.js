@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Wrapper from '../Wrapper/Wrapper';
 import Screen from '../Screen/Screen';
-
+import "./ButtonBox.css";
 
 const ButtonBox = ({children}) => (
    <div className='buttonBox'>{children}</div>

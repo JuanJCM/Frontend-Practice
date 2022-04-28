@@ -5,7 +5,7 @@ import "./Screen.css";
 
 const Screen = ({value}) => (
   <div>
-    <Textfit className= 'screen' mode = "single" max = {70}>
+    <Textfit className= "screen" mode = "single" max = {70}>
       {value}
     </Textfit>
   </div>

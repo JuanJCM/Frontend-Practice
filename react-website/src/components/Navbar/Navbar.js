@@ -47,4 +47,4 @@ export const NavMenu = styled.nav`
   @media screen and (max-width: 768px){
     display: none;
   }
-`
+`;

@@ -30,7 +30,7 @@ function App() {
     e.preventDefault();
     const value = e.target.innerHTML;
 
-    if(removeSpaces(calc.num) .length< 16){
+    if(removeSpaces(calc.num).length< 16){
       setCalc({
         ...calc,
         num:

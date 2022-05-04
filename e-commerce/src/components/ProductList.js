@@ -36,4 +36,4 @@ const ProductList = props => {
         </>
     )
 }
-export default function withContext(ProductList)
+export default withContext(ProductList);

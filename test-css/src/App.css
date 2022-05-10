@@ -57,5 +57,113 @@ h1.T3{
 
 h1.T4{
   text-align: right;
-  
+
+}
+
+h1.T5{
+  background-color: #61dafb;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px;
+  margin: 50px;
+}
+h1.T5:hover{
+  background-color: brown;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+button.btn1{
+  background-color: tomato;
+  color:azure;
+  padding: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-radius: 20px;
+  border: 3px solid #333;
+}
+button.btn1:hover{
+  background-color: burlywood;
+}
+button.btn1:checked{
+  background-color: blueviolet;
+}
+ div.B1{
+   font-family: 'Times New Roman', Times, serif;
+ }
+h2{
+  font-style: oblique;
+  display: flexbox;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+.container >div{
+  background: #fff;
+  padding: 20px;
+  border-radius:  4px;
+}
+.container .header{
+    background: #12203E;
+    color: #fff;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.container .contenido{
+   grid-column: span 2;
+}
+
+.container .sidebar{
+  grid-column: 3/4;
+  background: #fAA43D;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+  grid-row: span 2;
+}
+
+.container .widget-1,
+.container .widget-2{
+  background: #55a8fd;
+  color: #fff;
+  height:100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .footer{
+  background: #12283E;
+  color: #fff;
+  grid-column: span 3;
+}
+
+@media screen and (max-width: 768px){
+    .container .contenido{
+      grid-column: 1/-1;
+    }
+
+    .container .sidebar{
+      grid-column: 1/-1;
+    }
+
+    .container .widget-1{
+      grid-column: span 2;
+    }
+    
 }

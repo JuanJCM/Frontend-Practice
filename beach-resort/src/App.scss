@@ -1,10 +1,9 @@
-@import "components/MainPage.scss";
-*{
-    background-color: aliceblue;
-    text-align: center;
-}
 
-@media(max-width: 786px){
-    
+@import url('http://fonts.cdnfonts.com/css/good-foot');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-}
+@import "styles/_MainPage.scss";
+@import "/src/styles/_Header.scss";
+@import "styles/_FrontPage.scss";
+@import "styles/SponsorPage";

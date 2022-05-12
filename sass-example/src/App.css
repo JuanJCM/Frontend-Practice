@@ -33,4 +33,9 @@ name {
   font-weight: bold;
 }
 
+image {
+  background-image: url("../img/beach.jpeg");
+  background-size: auto;
+}
+
 /*# sourceMappingURL=App.css.map */

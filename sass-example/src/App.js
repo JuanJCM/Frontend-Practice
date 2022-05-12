@@ -20,6 +20,10 @@ function App() {
     <div id='mixin'>
       <p>This is mixin Example</p>
     </div>
+    <div className="image">
+      <p>Esto es un ejemplo de imagen</p>
+      
+    </div>
   </>
   );
 }

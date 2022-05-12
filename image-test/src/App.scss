@@ -1,0 +1,9 @@
+$imagebck:url();
+body{
+    background-color: burlywood;
+}
+
+.App{
+    background-image: $imagebck;
+    background-size: auto;
+}

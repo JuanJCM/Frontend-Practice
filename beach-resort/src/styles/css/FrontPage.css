@@ -1,0 +1,28 @@
+.logo {
+  background: url("/images/HeaderW.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  margin-top: 1px;
+  padding: 300px;
+  text-align: center;
+  color: white;
+  object-fit: contain;
+}
+.logo h1 {
+  text-align: center;
+  background-color: green;
+  font-size: xx-large;
+  padding: 0px;
+  margin-top: -10px;
+}
+.logo h4 {
+  font-size: large;
+}
+
+/*# sourceMappingURL=FrontPage.css.map */

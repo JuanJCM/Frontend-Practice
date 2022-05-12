@@ -1,5 +1,5 @@
 $main-color: red;
-
+$imgbackground: url("../img/beach.jpeg");
 body{
     background-color: white;
 }
@@ -52,4 +52,9 @@ $primary-color:green;
     p{
         @include default-text-style
     }
+}
+
+image{
+    background-image: $imgbackground;
+    background-size: auto;
 }

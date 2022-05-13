@@ -1,0 +1,31 @@
+$backgroundcolor: white;
+$nunitotext: 'Nunito', Bold;
+.SliderPage {
+  background-color: $backgroundcolor;
+  height: 400px;
+  display: flex;
+  .leftside {
+    
+    .textmood{
+        p{
+            color:black;
+            background-color: transparent;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            //5.75cm
+            font-family: 'OpenSans', Normal;
+            font-size: 1rem;
+        }
+    }
+    h1{
+        font-family: $nunitotext;
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .bluetitle{
+        color: $textcolor;
+        margin-bottom: -15px;
+    }
+
+  }
+}

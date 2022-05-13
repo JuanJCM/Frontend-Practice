@@ -1,4 +1,5 @@
 $backgroundcolor: #00b8f4;
+
 .Appbar {
   display: flex;
   background-color: black;
@@ -57,11 +58,12 @@ p.Search{
   padding-left: 10px;
 }
 .booknowbutton {
+  font-family: 'OpenSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: $backgroundcolor;
   cursor: pointer;
   flex-wrap: wrap;
   margin-top: 0px;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
   border-right: 1px;
   border-color: rgb(163, 142, 142);
   border: solid;
@@ -81,6 +83,7 @@ p.Search{
     margin: 1px;
     font-size: 5px;
     padding-top: 1px;
+    margin-bottom: 5px;
   }
   h5 {
     background-color: transparent;
@@ -95,6 +98,7 @@ p.Search{
 }
 .booknowbutton:hover {
     background-color: #00b8d1;
+    
 }
 
 .companylogo{

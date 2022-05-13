@@ -12,7 +12,6 @@ const FrontPage = () => {
       <h4 className="yellowmellow">Always included. Always unlimited.</h4>
       <div className="goldstandardlogo">
         <img className="liquor" src={liquor} alt="liquor" />
-        <p>texto de ejemplo</p>
       </div>
     </div>
   );

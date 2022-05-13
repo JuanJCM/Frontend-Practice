@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import FrontPage from "./FrontPage";
 import SponsorPage from "./SponsorPage";
+import SliderPage from "./SliderPage";
 
 const MainPage = () => {
   return (
@@ -9,11 +10,14 @@ const MainPage = () => {
       <div>
         <Header />
       </div>
-      <div>
+      <div className="Frontpage">
         <FrontPage/>
       </div>
-      <div>
+      <div className="Sponsorpage">
         <SponsorPage/>
+      </div>
+      <div className="Sliderpage">
+        <SliderPage/>
       </div>
     </div>
   );

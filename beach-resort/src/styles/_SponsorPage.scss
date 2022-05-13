@@ -1,3 +1,33 @@
-.palmbackground{
-    width: 63.5rem;
+$palmimg: url("../images/palm-background.png");
+$textcolor: #00b7f2;
+.SponsorPage{
+    background-image: $palmimg;
+    text-align: center;
+    margin: 0px;
+    height: 65rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    
+    h1.title{
+        padding-top: 3rem;
+        color:$textcolor;
+        font-family: 'Nunito', Extrabold;
+        border-bottom: 1px solid white;
+    }
+    p{
+        background-color: transparent;
+        color: white;
+        font-family: 'OpenSans';
+        font-size: 14px;
+        line-height: 15px;
+        
+        sup{
+            background-color: transparent;
+        }
+    }
+
+    .liquorman{
+        width: 600px;
+    }
 }

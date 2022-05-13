@@ -2,6 +2,10 @@ $backgroundimg: url("../../images/HeaderW.png");
 $goldencolor: #c19a45;
 $starimg: url("../../images/star.svg");
 
+*{
+    margin-bottom: -1px;
+    align-items: center;
+}
 .logo{
     background-image: $backgroundimg;
     background-color: burlywood;
@@ -37,8 +41,11 @@ $starimg: url("../../images/star.svg");
     }
     h4.yellowmellow{
         color:$goldencolor;
+        text-align: center;
         font-size: 2rem;
         font-family: 'Good Foot', regular;
+        margin-top: 8px;
+        margin-bottom: 30px;
     }
     
 }
@@ -72,6 +79,7 @@ $starimg: url("../../images/star.svg");
 
 .lines{
     width: 35rem;
+    margin: -10px;
 }
 .liquor{
     height: 40rem;

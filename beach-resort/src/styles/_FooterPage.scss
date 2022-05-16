@@ -1,0 +1,12 @@
+.FooterPage{
+    background-color: darkgray;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.viewButton{
+    color: white;
+    background-color: $textcolor;
+}

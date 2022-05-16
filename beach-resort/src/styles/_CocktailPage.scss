@@ -1,0 +1,63 @@
+.bluespecialty{
+    font-size: 55px;
+    margin-bottom: -95px;
+    margin-top: -15px;
+    color: $textcolor;
+    font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
+    text-align: center;
+    .blacktitle{
+        color: black;
+    }
+}
+.barspubs{
+    text-align: center;
+    font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
+    margin-bottom: -90px;
+    margin-top: -50px;
+}
+.premiumliquors{
+    text-align: center;
+}
+.extracost{
+    text-align: center;
+    color: $textcolor;
+    font-family: $openSans;
+}
+.cocktailPage{
+    height: 1200px;
+    display: grid;
+    background-color: white;
+}
+.typeofdrinks{
+    text-align: center;
+    font-family: 'OpenSans', Semibold;
+    color: $textcolor;
+    margin-top: -60px;
+}
+@mixin cocktailheight{
+    height: 350px;
+}
+.photococktail{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+.rum{
+    @include cocktailheight();
+}
+
+.mojito{
+    @include cocktailheight();
+}
+.margarita{
+    @include cocktailheight();
+}
+.pina{
+    @include cocktailheight();
+}
+.lagoon{
+    @include cocktailheight();
+}
+.bahama{
+    @include cocktailheight();
+}

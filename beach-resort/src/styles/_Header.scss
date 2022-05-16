@@ -43,14 +43,13 @@ p.Search{
 
 .Titlebar {
   background-color: $backgroundcolor;
-  display: flex;
+  display: grid;
   color: white;
-  align-items: flex-start;
   height: 3.5rem;
-  
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.Logo {
+.companylogo {
   background-color: $backgroundcolor;
   align-items: flex-start;
   flex-direction: initial;
@@ -61,7 +60,6 @@ p.Search{
   font-family: 'OpenSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: $backgroundcolor;
   cursor: pointer;
-  flex-wrap: wrap;
   margin-top: 0px;
   margin-bottom: 0px;
   border-right: 1px;
@@ -70,13 +68,14 @@ p.Search{
   border-top: 0px;
   border-left: 0px;
   border-bottom: 0px;
-  align-items: center;
+  text-align: right;  
   h1 {
     background-color: transparent;
     margin-top: 5px;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    font-size: 15px;
+    font-size: 20px;
+    padding-right: 5px;
   }
   h1.checkrates {
     background-color: none;
@@ -86,9 +85,9 @@ p.Search{
     margin-bottom: 5px;
   }
   h5 {
-    background-color: transparent;
+    background-color: $backgroundcolor;
     font-size: 8px;
-    padding-right: 15px;
+    padding-right: 2px;
   }
   .beacheslogo{
     //background-image: url('../../images/beaches-blanco.png');

@@ -3,6 +3,8 @@ import Header from "./Header";
 import FrontPage from "./FrontPage";
 import SponsorPage from "./SponsorPage";
 import SliderPage from "./SliderPage";
+import CocktailPage from "./CocktailPage";
+import FooterPage from "./FooterPage";
 
 const MainPage = () => {
   return (
@@ -18,6 +20,12 @@ const MainPage = () => {
       </div>
       <div className="Sliderpage">
         <SliderPage/>
+      </div>
+      <div className="CocktailPage">
+        <CocktailPage/>
+      </div>
+      <div className="FooterPage">
+        <FooterPage/>
       </div>
     </div>
   );

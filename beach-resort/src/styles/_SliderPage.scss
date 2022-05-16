@@ -1,31 +1,45 @@
 $backgroundcolor: white;
-$nunitotext: 'Nunito', Bold;
+$nunitotext: "Nunito", Bold;
+$openSans: "OpenSans", Normal;
 .SliderPage {
   background-color: $backgroundcolor;
-  height: 400px;
-  display: flex;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
   .leftside {
-    
-    .textmood{
-        p{
-            color:black;
-            background-color: transparent;
-            margin-top: 15px;
-            margin-bottom: 5px;
-            //5.75cm
-            font-family: 'OpenSans', Normal;
-            font-size: 1rem;
-        }
+    .textmood {
+      p {
+        color: black;
+        background-color: transparent;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        //5.75cm
+        padding-left: 40px;
+        font-family: $openSans;
+        font-size: 0.9rem;
+        justify-content:center;
+      }
     }
-    h1{
-        font-family: $nunitotext;
-        font-size: 3rem;
-        margin-top: 10px;
+    h1 {
+      font-family: $nunitotext;
+      font-size: 3rem;
+      margin-top: 10px;
+      padding-left: 40px;
     }
-    .bluetitle{
-        color: $textcolor;
-        margin-bottom: -15px;
+    .bluetitle {
+      color: $textcolor;
+      margin-bottom: -15px;
     }
-
+  }
+  .rightside {
+    background-color: bisque;
+    grid-row: span 2;
+    text-align: center;
+    justify-content: center;
+  }
+  .sliderSection {
+    background-color: bisque;
+    grid-column: span 2;
   }
 }

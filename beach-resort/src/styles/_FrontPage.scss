@@ -20,8 +20,11 @@ $starimg: url("../../images/star.svg");
     overflow: hidden;
     margin-top: 1px;
     padding: 18.75rem;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     color: white;
+    align-items: center;
     object-fit: contain;
     background-position: center;
     h1{

@@ -1,5 +1,5 @@
 import React from "react";
-
+import safelogo from "../images/safelogo.png";
 const SliderPage = () => {
   return (
     <div className="SliderPage">
@@ -29,7 +29,12 @@ const SliderPage = () => {
       </div>
       <div className="rightside">
             {/*Aqui iria el logo */}
-            <h1>This is the right side.</h1>
+            <div className="blackbox">
+                <div className="lineborder">
+                  <img className="safeLogo" src={safelogo} alt="safeLogo"/>
+                  <p>And all Beaches bartenders are trained and certified by ServSafe<sup><span>&#174;</span></sup>, a rigorous food and beverage safety training and certification program administered by the National Restaurant Association</p>
+                </div>
+            </div>
       </div>
       <div className="sliderSection">
             <h1>Aqui deberia de ir un slider, si tan solo tuviera uno</h1>

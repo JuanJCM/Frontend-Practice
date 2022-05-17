@@ -1,12 +1,53 @@
+$backgroundliquor: url('../images/Footer-photo.jpg');
 .FooterPage{
-    background-color: darkgray;
+    background-color: white;
     align-items: center;
     text-align: center;
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
+    width: auto;
+    max-width: 100%;
 }
 .viewButton{
     color: white;
     background-color: $textcolor;
+    font-size: 2.5rem;
+}
+.unlimitedpremiumliquors{
+    background: $backgroundliquor;
+    height:  90rem;
+    position: relative;
+}
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+.endpage{
+    margin-top: 8rem;
+    padding-bottom: 10rem;
+}
+.rightside{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    p{
+        color: white;
+    }
+    .blackbox{
+        background-color: black;
+        grid-row: 1/ span 2;
+        grid-column: 2;
+        align-items: center;
+        height: 21rem;
+        align-items: center;
+    }
+    .lineborder{
+        border: 1px solid white;
+        margin-top: 5rem;
+        margin-left: 3rem;
+        margin-right:3rem;
+    }
 }

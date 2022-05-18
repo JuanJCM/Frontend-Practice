@@ -5,6 +5,7 @@ import SponsorPage from "./SponsorPage";
 import SliderPage from "./SliderPage";
 import CocktailPage from "./CocktailPage";
 import FooterPage from "./FooterPage";
+import EndPage from "./EndPage";
 
 const MainPage = () => {
   return (
@@ -26,6 +27,9 @@ const MainPage = () => {
       </div>
       <div className="FooterPage">
         <FooterPage/>
+      </div>
+      <div className="EndPage">
+        <EndPage/>
       </div>
     </div>
   );

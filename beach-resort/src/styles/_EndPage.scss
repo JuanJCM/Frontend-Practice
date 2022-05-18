@@ -1,0 +1,13 @@
+.EndPage{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: $nunitotext;
+    .viewButton{
+        color: white;
+        background-color: $textcolor;
+        font-size: 2.5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}

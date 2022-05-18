@@ -20,7 +20,7 @@ $openSans: "OpenSans", Normal;
         padding-left: 40px;
         font-family: $openSans;
         font-size: 0.9rem;
-        justify-content:center;
+        justify-content: center;
       }
     }
     h1 {
@@ -35,10 +35,26 @@ $openSans: "OpenSans", Normal;
     }
   }
   .rightside {
-    background-color: bisque;
-    grid-row: span 2;
-    text-align: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    p {
+      color: white;
+    }
+    .blackbox {
+      background-color: black;
+      grid-row: 1 / span 2;
+      grid-column: 2;
+      align-items: center;
+      height: 21rem;
+      align-items: center;
+    }
+    .lineborder {
+      border: 1px solid white;
+      margin-top: 5rem;
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
   }
   .sliderSection {
     background-color: bisque;

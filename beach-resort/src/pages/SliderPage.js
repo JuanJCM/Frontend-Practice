@@ -10,8 +10,8 @@ const SliderPage = () => {
         </div>
         <div className="textmood">
           <p>
-            With unlimited drinks in as many as 15 bars per resort, nobody
-            knows how to party like Beaches.
+            With unlimited drinks in as many as 15 bars per resort, nobody knows
+            how to party like Beaches.
           </p>
           <p>
             By day, swim-up bars, oceanside bars, and beachside divans invite
@@ -28,16 +28,20 @@ const SliderPage = () => {
         </div>
       </div>
       <div className="rightside">
-            {/*Aqui iria el logo */}
-            <div className="blackbox">
-                <div className="lineborder">
-                  <img className="safeLogo" src={safelogo} alt="safeLogo"/>
-                  <p>And all Beaches bartenders are trained and certified by ServSafe<sup><span>&#174;</span></sup>, a rigorous food and beverage safety training and certification program administered by the National Restaurant Association</p>
-                </div>
-            </div>
-      </div>
-      <div className="sliderSection">
-            <h1>Aqui deberia de ir un slider, si tan solo tuviera uno</h1>
+        {/*Aqui iria el logo */}
+        <div className="blackbox">
+          <div className="lineborder">
+            <img className="safeLogo" src={safelogo} alt="safeLogo" />
+            <p>
+              And all Beaches bartenders are trained and certified by ServSafe
+              <sup>
+                <span>&#174;</span>
+              </sup>
+              , a rigorous food and beverage safety training and certification
+              program administered by the National Restaurant Association
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

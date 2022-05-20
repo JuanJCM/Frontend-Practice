@@ -1,0 +1,21 @@
+.sliderSection{
+    background-color: white;
+    height: 50rem;
+    align-items: center;
+    text-align: center;
+    .swiper-button-next{
+        right: 65rem;
+        margin-top: 22rem;
+        color: black;
+    }
+    .swiper-button-prev{
+        left: 65rem;
+        margin-top: 22rem;
+        color: black;
+    }
+    SwiperSlide{
+        justify-items: baseline;
+    }
+}
+
+

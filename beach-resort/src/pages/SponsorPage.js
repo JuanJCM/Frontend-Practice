@@ -1,9 +1,15 @@
-import React from "react";
+import React,{useState} from "react";
 import background from'../images/palm-background.png';
 import logos from '../images/Logos.png';
-import liquorman from '../images/liquorman.png';
+import whitebutton from '../images/whitebutton1.svg';
 const SponsorPage=()=>{
-    return(
+    const [clickedImg, setClickedImg] = useState(null);
+    const [currentIndex, setClickedIndex] = useState(null);    
+    const HandleClick = (item, index) =>{
+        setClickedImg(item);
+        currentIndex(index);
+    }
+        return(
         <div className="SponsorPage">
             <div className="textarea">
                 <h1 className="title">Hallmark of Excellence</h1>
@@ -24,7 +30,11 @@ const SponsorPage=()=>{
                 <br/>
                 <br/>
                 {/* Aqui tiene que ir un LightBox del man del liquors*/}
-                <img className="liquorman" src={liquorman} alt="liquorman"/>
+                <div className="liquorman" onClick={HandleClick(item, index)}>
+                    <div className="playbutton">
+                        <img src={whitebutton} alt= "alt" className="whitebutton"/>
+                    </div>
+                </div>
             </div>
         </div>
     );

@@ -1,5 +1,7 @@
 $palmimg: url("../images/palm-background.png");
 $textcolor: #00b7f2;
+$liquorback: url("../images/liquorman.png");
+
 .SponsorPage{
     background-image: $palmimg;
     text-align: center;
@@ -8,7 +10,9 @@ $textcolor: #00b7f2;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
-    
+    align-items: center;    
+    display:flex;
+    flex-direction: column;
     h1.title{
         padding-top: 3rem;
         color:$textcolor;
@@ -28,6 +32,23 @@ $textcolor: #00b7f2;
     }
 
     .liquorman{
-        width: 600px;
+        align-items: center;
+        background-image: $liquorback;
+        width: 40rem;
+        height: 25rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        display:grid;
+        grid-template-columns: repeat(3,2fr);
+    }
+    .playbutton{
+        background-color: rgba($color: #000000, $alpha: 0.1);
+        height: 10rem;
+        width: 10rem;
+        grid-column: 2;
+        .whitebutton{
+            size: 3rem;
+            background-color: transparent;
+        }
     }
 }

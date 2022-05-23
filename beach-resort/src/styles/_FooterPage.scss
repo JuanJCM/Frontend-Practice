@@ -18,12 +18,10 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
   background-repeat: no-repeat;
   //width:145.5rem;
   width: 100%;
-
   justify-content: center;
   max-width: auto;
   align-items: center;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+
   .backgroundbutton {
     background-color: rgba($color: #000000, $alpha: 0.6);
     display: flex;
@@ -31,6 +29,7 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     grid-row: 2;
     font-family: $nunitotext;
     color: white;
+    margin-top: -25rem;
   }
   p {
     grid-column: 3;
@@ -75,4 +74,8 @@ h2 {
 }
 h3 {
   font-size: 1.5rem;
+}
+
+.lightbox{
+  height: 100%;
 }

@@ -5,6 +5,7 @@ import margarita from "../images/Margarita.png";
 import pina from "../images/Pina.png";
 import lagoon from "../images/lagoon.png";
 import bahama from "../images/Bahama.png";
+import CocktailComponent from "./CocktailComponent";
 const CocktailPage = () => {
   return (
     <div className="cocktailPage">
@@ -15,16 +16,14 @@ const CocktailPage = () => {
       <div className="typeofdrinks">
         <h4>OUR BARTENDERS ARE EXPERTS AT POURING</h4>
         <h4>& MIXING THE BEST COCKTAILS</h4>
+        <br/>
+        <br/>
+        <br/>
       </div>
       <div className="photococktail">
         {/**arriba */}
-        <img className="rum" src={rum} alt="rum"/>
-        <img className="mojito" src={mojito} alt="mojito"/>
-        <img className= "margarita" src={margarita} alt="margarita"/>
+        <CocktailComponent/>
         {/**abajo */}
-        <img className= "pina" src={pina} alt="pina"/>
-        <img className= "lagoon" src={lagoon} alt="lagoon"/>
-        <img className= "bahama" src={bahama} alt="bahama"/>
       </div>
       <div>
         <h3 className="premiumliquors">

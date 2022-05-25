@@ -1,0 +1,144 @@
+$backgroundimg1: url("../images/Rum.png");
+.CocktailComponent{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+@mixin backgroundcontent{
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    grid-column: span 3;
+}
+@mixin circleradiuscontent{
+    background-size: 20rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+    border: 0.4rem solid white;
+    height: 15rem;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    top: 2rem;
+}
+@mixin imgsobresalecontent{
+    height: 6rem;
+    max-width: auto;
+    width:7.5rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 4rem;
+    left:9rem;
+}
+.backgroundimg1{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent;
+}
+
+.circleradius1{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale1{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}
+
+.drinkName{
+    font-family: $nunitotext;
+    position:relative;
+    top:9rem;
+    width: 6rem;
+    right: 28rem;
+}
+
+.backgroundimg2{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent();
+}
+
+.circleradius2{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale2{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}
+
+.backgroundimg3{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent();
+}
+
+.circleradius3{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale3{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}
+
+.backgroundimg4{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent();
+}
+
+.circleradius4{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale4{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}
+
+.backgroundimg5{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent();
+}
+
+.circleradius5{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale5{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}
+.backgroundimg6{
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    @include backgroundcontent();
+}
+
+.circleradius6{
+    background-image: url("../images/Rum.png");
+    @include circleradiuscontent();
+
+}
+
+.imgsobresale6{
+    background-image: url("../images/pineapple-rum.png");
+    @include imgsobresalecontent();
+}

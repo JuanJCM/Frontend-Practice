@@ -12,7 +12,7 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
 
 .unlimitedpremiumliquors {
   display: grid; 
-  background-image: linear-gradient(white -10%, transparent ), $backgroundliquor; 
+  background-image: linear-gradient(to top,transparent,white ), $backgroundliquor; 
   height: 80rem;
   background-size: cover;
   background-repeat: no-repeat;

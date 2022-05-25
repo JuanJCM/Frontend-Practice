@@ -2,6 +2,7 @@
     font-size: 55px;
     margin-bottom: -95px;
     margin-top: -15px;
+    height:15rem;
     color: $textcolor;
     font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
     text-align: center;
@@ -12,8 +13,10 @@
 .barspubs{
     text-align: center;
     font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
-    margin-bottom: -90px;
-    margin-top: -50px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    position: relative;
+    bottom: 7rem;
 }
 .premiumliquors{
     text-align: center;
@@ -42,8 +45,6 @@
 }
 .photococktail{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
 }
 .rum, .mojito, .margarita, .pina, .lagoon, .bahama{
     @include cocktailheight();

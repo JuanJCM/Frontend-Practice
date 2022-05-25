@@ -6,6 +6,9 @@ const Modal = () => {
   return(
     <div className="backgroundimg">
         <div className="circleradius">
+          <div className="imgsobresale">
+
+          </div>
         </div>
     </div>
   );

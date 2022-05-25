@@ -1,24 +1,42 @@
 .backgroundimg{
-    background-image: radial-gradient(circle at center, white,transparent), url("../src/images/rum.png");
-    max-height: 100%;
-    max-width: 100%;
-    height: 100rem;
+    background-image: radial-gradient(circle , transparent 30%,white 70%), url("../src/images/rum.png");
+    background-position: center;
+    border-radius: 50%;
+    background-size: cover;
+    height: auto;
     background-repeat: no-repeat;
     text-align: center;
     justify-content: center;
+    display: flex;
+    width: 20rem;
+    height: 20rem;
 }
 
 .circleradius{
     background-image: url("../src/images/rum.png");
+    background-size: 20rem;
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
-    border: 1rem solid white;
-    height: 20rem;
+    border: 0.4rem solid white;
+    height: 15rem;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 15rem;
+    position: fixed;
+    top: 2rem;
 
-    padding-top: 20rem;
-    margin-left: 2rem;
-    padding-right: 18rem;
+}
+.imgsobresale{
+    background-image: url("../src/images/pineapple-rum.png");
+    height: 6rem;
+    max-width: auto;
+    width:7.5rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 4rem;
+    left:9rem;
+
 }

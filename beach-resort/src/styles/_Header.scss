@@ -46,7 +46,8 @@ p.Search{
   display: grid;
   color: white;
   height: 3.5rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
+  align-items: flex-end;
 }
 
 .companylogo {
@@ -69,6 +70,9 @@ p.Search{
   border-left: 0px;
   border-bottom: 0px;
   text-align: right;  
+  grid-column: 4;
+  align-items: right;
+  justify-content:right;
   h1 {
     background-color: transparent;
     margin-top: 5px;

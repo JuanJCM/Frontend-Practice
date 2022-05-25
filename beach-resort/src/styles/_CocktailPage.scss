@@ -17,20 +17,23 @@
 }
 .premiumliquors{
     text-align: center;
+    font-family: $nunitotext;
 }
 .extracost{
     text-align: center;
     color: $textcolor;
-    font-family: $openSans;
+    font-family: $nunitotext;
 }
 .cocktailPage{
     height: 1200px;
     display: grid;
     background-color: white;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 .typeofdrinks{
     text-align: center;
-    font-family: 'OpenSans', Semibold;
+    font-family: $nunitotext;
     color: $textcolor;
     margin-top: -60px;
 }
@@ -42,22 +45,6 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2,1fr);
 }
-.rum{
-    @include cocktailheight();
-}
-
-.mojito{
-    @include cocktailheight();
-}
-.margarita{
-    @include cocktailheight();
-}
-.pina{
-    @include cocktailheight();
-}
-.lagoon{
-    @include cocktailheight();
-}
-.bahama{
+.rum, .mojito, .margarita, .pina, .lagoon, .bahama{
     @include cocktailheight();
 }

@@ -18,7 +18,7 @@ $openSans: "OpenSans", Normal;
         margin-bottom: 5px;
         //5.75cm
         padding-left: 40px;
-        font-family: $openSans;
+        font-family: $nunitotext;
         font-size: 0.9rem;
         justify-content: center;
       }
@@ -38,23 +38,33 @@ $openSans: "OpenSans", Normal;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
     p {
       color: white;
     }
     .blackbox {
       background-color: black;
-      grid-row: 1 / span 2;
+      grid-row: 1 / span 3;
       grid-column: 2;
       align-items: center;
       height: 21rem;
+      width: 15rem;
       align-items: center;
       margin-top: 5rem;
     }
     .lineborder {
-      border: 1px solid white;
-      margin-top: 5rem;
-      margin-left: 3rem;
-      margin-right: 3rem;
+      border: 0.250rem solid white;
+      margin-top: 1rem;
+      padding-top: 3rem;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
   }
   .sliderSection {

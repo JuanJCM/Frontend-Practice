@@ -1,0 +1,24 @@
+.backgroundimg{
+    background-image: radial-gradient(circle at center, white,transparent), url("../src/images/rum.png");
+    max-height: 100%;
+    max-width: 100%;
+    height: 100rem;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+}
+
+.circleradius{
+    background-image: url("../src/images/rum.png");
+    background-position: center;
+    border-radius: 50%;
+    border: 1rem solid white;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+
+    padding-top: 20rem;
+    margin-left: 2rem;
+    padding-right: 18rem;
+}

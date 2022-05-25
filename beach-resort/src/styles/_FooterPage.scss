@@ -11,8 +11,8 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
 }
 
 .unlimitedpremiumliquors {
-  display: grid;
-  background: $backgroundliquor;
+  display: grid; 
+  background-image: linear-gradient(white -10%, transparent ), $backgroundliquor; 
   height: 80rem;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,6 +30,9 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     font-family: $nunitotext;
     color: white;
     margin-top: -25rem;
+    padding-bottom: -3rem;
+    padding-left: 2.5rem;
+    padding-right: 3rem;
   }
   p {
     grid-column: 3;
@@ -38,13 +41,18 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
 }
 .play-video-icon {
   padding-left: 5rem;
+  padding-right: 1rem;
   .playbutton {
-    height: 4rem;
+    height: 7rem;
+    padding-right: 1rem;
+    justify-content: center;
+    align-items: center;
   }
   .widthp {
-    width: 4rem;
+    width: 6rem;
     color: white;
     background-color: transparent;
+    font-size: 1rem;
   }
 }
 .text-button {
@@ -64,8 +72,8 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
   .blue-text {
     background-color: transparent;
     color: $textcolor;
-    width: 7rem;
-    font-size: 0.5rem;
+    width: 10rem;
+    font-size: 0.7rem;
     margin-top: -1rem;
   }
 }

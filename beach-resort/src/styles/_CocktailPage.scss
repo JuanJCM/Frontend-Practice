@@ -21,6 +21,8 @@
 .premiumliquors{
     text-align: center;
     font-family: $nunitotext;
+    border-top: 0.1rem solid lightgray;
+    border-bottom: 00.1rem solid lightgray;
 }
 .extracost{
     text-align: center;
@@ -36,9 +38,13 @@
 }
 .typeofdrinks{
     text-align: center;
+    position: relative;
+    z-index: 1000;
     font-family: $nunitotext;
     color: $textcolor;
-    margin-top: -60px;
+    border-top: 0.1rem solid  lightgray;
+    border-bottom: 0.1rem solid lightgray;
+    max-width: 100%;
 }
 @mixin cocktailheight{
     height: 350px;

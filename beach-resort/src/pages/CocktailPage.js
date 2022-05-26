@@ -16,19 +16,23 @@ const CocktailPage = () => {
       <div className="typeofdrinks">
         <h4>OUR BARTENDERS ARE EXPERTS AT POURING</h4>
         <h4>& MIXING THE BEST COCKTAILS</h4>
-        <br/>
-        <br/>
-        <br/>
       </div>
+      <br />
+      <br />
+      <br />
       <div className="photococktail">
         {/**arriba */}
-        <CocktailComponent/>
+        <CocktailComponent />
         {/**abajo */}
       </div>
       <div>
         <h3 className="premiumliquors">
-          AND MANY MORE WITH OUR PREMIUM LIQUORS AT <h3 className="extracost">NO EXTRA COST!</h3>
+          AND MANY MORE WITH OUR PREMIUM LIQUORS AT{" "}
+          <h3 className="extracost">NO EXTRA COST!</h3>
         </h3>
+        <div className="learnMoresection">
+          
+        </div>
       </div>
     </div>
   );

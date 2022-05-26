@@ -1,4 +1,9 @@
 $backgroundimg1: url("../images/Rum.png");
+$backgroundimg2: url("../images/Mojito.png");
+$backgroundimg3: url("../images/Margarita.png");
+$backgroundimg4: url("../images/Pina.png");
+$backgroundimg5: url("../images/lagoon.png");
+$backgroundimg6: url("../images/Bahama.png");
 .CocktailComponent{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -41,12 +46,12 @@ $backgroundimg1: url("../images/Rum.png");
     left:9rem;
 }
 .backgroundimg1{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 10%,white 90%), $backgroundimg1;
     @include backgroundcontent;
 }
 
 .circleradius1{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg1;
     @include circleradiuscontent();
 
 }
@@ -60,85 +65,125 @@ $backgroundimg1: url("../images/Rum.png");
     font-family: $nunitotext;
     position:relative;
     top:9rem;
-    width: 6rem;
+    width: 7rem;
     right: 28rem;
 }
 
 .backgroundimg2{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 10%,white 90%), $backgroundimg2;
     @include backgroundcontent();
 }
 
 .circleradius2{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg2;
     @include circleradiuscontent();
 
 }
 
 .imgsobresale2{
-    background-image: url("../images/pineapple-rum.png");
-    @include imgsobresalecontent();
+    background-image: url("../images/mint.png");
+    height: 17.5rem;
+    max-width: auto;
+    width:25rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: -2.5rem;
+    left: -1.8rem;
 }
 
 .backgroundimg3{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 0%,white 100% ), $backgroundimg3;
     @include backgroundcontent();
 }
 
 .circleradius3{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg3;
     @include circleradiuscontent();
 
 }
 
 .imgsobresale3{
-    background-image: url("../images/pineapple-rum.png");
-    @include imgsobresalecontent();
+    background-image: url("../images/margarita-cup.png");
+    height: 12rem;
+    max-width: auto;
+    width:18rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 2.15rem;
+    left:-1.3rem;
 }
 
 .backgroundimg4{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg4;
     @include backgroundcontent();
 }
 
 .circleradius4{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg4;
     @include circleradiuscontent();
 
 }
 
 .imgsobresale4{
-    background-image: url("../images/pineapple-rum.png");
-    @include imgsobresalecontent();
+    background-image: url("../images/pinapple-pina.png");
+    height: 7rem;
+    max-width: auto;
+    width:18rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 3.9rem;
+    left:-1.8rem;
 }
 
 .backgroundimg5{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg5;
     @include backgroundcontent();
 }
 
 .circleradius5{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg5;
     @include circleradiuscontent();
 
 }
 
 .imgsobresale5{
-    background-image: url("../images/pineapple-rum.png");
-    @include imgsobresalecontent();
+    background-image: url("../images/cherry-stem.png");
+    height: 1.5rem;
+    max-width: auto;
+    width:18rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 3.65rem;
+    left: -0.05rem;
 }
 .backgroundimg6{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg6;
     @include backgroundcontent();
 }
 
 .circleradius6{
-    background-image: url("../images/Rum.png");
+    background-image: $backgroundimg6;
     @include circleradiuscontent();
 
 }
 
 .imgsobresale6{
-    background-image: url("../images/pineapple-rum.png");
-    @include imgsobresalecontent();
+    background-image: url("../images/pineapple-bahama.png");
+    height: 7rem;
+    max-width: auto;
+    width:18rem;
+    position: relative;
+    z-index: 1000;
+    background-repeat: no-repeat;
+    background-size:contain;
+    top: 0.4rem;
+    left: -1.9rem;
 }

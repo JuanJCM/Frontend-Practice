@@ -1,5 +1,5 @@
 import logo from "./logo.svg";
-import "./App.css";
+import "../src/Modal.scss";
 import beach from "../src/images/beach.jpeg";
 import Modal from "./CocktailComponent";
 import { useState } from "react";

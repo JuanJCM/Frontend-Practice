@@ -1,0 +1,90 @@
+.backgroundimgwine{
+    background-image: url("../images/Layer\ 831\ 2.png");
+    background-position-y:0rem; 
+    background-position-x: 0rem;
+    background-size: 20.2rem; 
+    border-radius: 50%;
+    height: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    width: 20rem;
+    height: 20rem;
+    border: 0.3rem solid blue;
+    max-width: 100%;
+
+}
+
+.includedtext{
+    background-color: aqua;
+    color: white;
+    position: relative;
+    z-index: 1;
+    height:1rem;
+    width: 12rem;
+    max-width: 100%;
+    left: 4rem;
+}
+
+.bottleimg{
+    background-image: url("../images/Bottles.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -1rem;
+    height: 21rem;
+}
+.descriptionarea{
+    background: linear-gradient(to bottom,rgba(lightgray, $alpha: 0.6) 40%,transparent 60%);
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 8rem;
+}
+
+*{
+    text-align: center;
+    justify-content: center;    
+}
+.logos{
+    height: 3rem;
+    padding-top: 2.6rem;
+}
+.bluebutton{
+    color: blue;
+    border-color: blue;
+}  
+.containerliquor{
+    display: grid;
+    grid-template-columns: repeat(12,2fr);
+
+}
+
+.backgroundimgrum{
+    background: url("../images/appleton-bottles.png");
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5rem solid blue;
+}
+.leftside{
+    grid-column: span 6;
+}
+.rightside {
+    grid-column: span 6;
+}
+.logos2{
+    height: 4rem;
+    margin-top: 2.6rem;
+}
+.textincluded{
+    font-size: 2rem ;
+}
+.includedcontent{
+    background-color: transparent;
+}

@@ -63,7 +63,7 @@
     height: 21rem;
 }
 .descriptionarea{
-    background-color: linear-gradient( to top, aquamarine, transparent );
+    background: linear-gradient(to bottom,rgba(lightgray, $alpha: 0.6) 40%,transparent 60%);
     border-radius: 50%;
     width: 20rem;
     height: 20rem;
@@ -75,5 +75,38 @@
 
 *{
     text-align: center;
-    justify-content: center;
+    justify-content: center;    
+}
+.logos{
+    height: 3rem;
+    padding-top: 2.6rem;
+}
+.bluebutton{
+    color: blue;
+    border-color: blue;
+}  
+.containerliquor{
+    display: grid;
+    grid-template-columns: repeat(12,2fr);
+
+}
+
+.backgroundimg2{
+    background: url("../src/images/appleton-bottles.png");
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.5rem solid blue;
+}
+.leftside{
+    grid-column: span 6;
+}
+.rightside {
+    grid-column: span 6;
+}
+.logos2{
+    height: 4rem;
+    margin-top: 2.6rem;
 }

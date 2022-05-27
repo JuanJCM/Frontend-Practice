@@ -1,20 +1,18 @@
 import React from "react";
-import "../src/Modal.css";
-import cocktail from "../src/images/rum.png";
-import twinoaks from "../src/images/twin-oaks.png";
-import appleton from "../src/images/appleton.png";
-const Modal = () => {
+import twinoaks from "../images/twin-oaks.png";
+import appleton from "../images/appleton.png";
+const InlcudedSection = () => {
   return (
     <div className="containerliquor">
       <div className="leftside">
-        <div className="backgroundimg">
+        <div className="backgroundimgwine">
           <p className="includedtext">INCLUDED</p>
           <div className="bottleimg"></div>
         </div>
         <div className="descriptionarea">
           <img src={twinoaks} alt="logos" className="logos" />
-          <h2>Premium House Wines</h2>
-          <p>
+          <h2 className="textincluded">Premium House Wines</h2>
+          <p className="includedcontent">
             We've raised the bar by partnering with Robert Mondavi Twin Oaks
             <sup>
               <span>&#174;</span>
@@ -28,19 +26,19 @@ const Modal = () => {
         </div>
       </div>
       <div className="rightside">
-        <div className="backgroundimg2">
+        <div className="backgroundimgrum">
           <p className="includedtext">INCLUDED</p>
         </div>
         <div className="descriptionarea">
           <img src={appleton} alt="logos2" className="logos2" />
-          <h2>
+          <h2 className="textincluded">
             Appleton
             <sup>
               <span>&#174;</span>
             </sup>{" "}
             Estate Jamaica Rum
           </h2>
-          <p>
+          <p className="includedcontent">
             An iconic Jamaica product and internationally acclaimed rum brand,
             is poured at all Beaches Resorts throughout the Caribbean.
           </p>
@@ -52,4 +50,4 @@ const Modal = () => {
     </div>
   );
 };
-export default Modal;
+export default InlcudedSection;

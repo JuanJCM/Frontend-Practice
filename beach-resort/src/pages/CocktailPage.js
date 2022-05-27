@@ -6,6 +6,7 @@ import pina from "../images/Pina.png";
 import lagoon from "../images/lagoon.png";
 import bahama from "../images/Bahama.png";
 import CocktailComponent from "./CocktailComponent";
+import InlcudedSection from "./IncludedSection";
 const CocktailPage = () => {
   return (
     <div className="cocktailPage">
@@ -31,7 +32,7 @@ const CocktailPage = () => {
           <h3 className="extracost">NO EXTRA COST!</h3>
         </h3>
         <div className="learnMoresection">
-          
+          <InlcudedSection/>
         </div>
       </div>
     </div>

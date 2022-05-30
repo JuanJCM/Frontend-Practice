@@ -1,7 +1,7 @@
 .bluespecialty{
     font-size: 55px;
     margin-bottom: -95px;
-    margin-top: -15px;
+    margin-top: 3rem;
     height:15rem;
     color: $textcolor;
     font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
@@ -13,16 +13,19 @@
 .barspubs{
     text-align: center;
     font-family: 'Nunito', Extrabold, 'OpenSans', Semibold;
-    margin-bottom: 1rem;
+    margin-bottom: -4rem;
     margin-top: 1rem;
     position: relative;
-    bottom: 7rem;
+    bottom: 6rem;
 }
 .premiumliquors{
     text-align: center;
     font-family: $nunitotext;
     border-top: 0.1rem solid lightgray;
     border-bottom: 00.1rem solid lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 6rem;
 }
 .extracost{
     text-align: center;
@@ -30,7 +33,7 @@
     font-family: $nunitotext;
 }
 .cocktailPage{
-    height: 1200px;
+    height: 102rem;
     display: grid;
     background-color: white;
     padding-left: 10rem;
@@ -38,8 +41,8 @@
 }
 .typeofdrinks{
     text-align: center;
-    position: relative;
-    z-index: 1000;
+    justify-content: center;
+    display: flex;
     font-family: $nunitotext;
     color: $textcolor;
     border-top: 0.1rem solid  lightgray;
@@ -54,4 +57,12 @@
 }
 .rum, .mojito, .margarita, .pina, .lagoon, .bahama{
     @include cocktailheight();
+}
+
+.bluecocktails{
+    width: 23rem;
+    text-align: center;
+    justify-content: center;
+
+    padding-bottom: 1rem;
 }

@@ -1,18 +1,21 @@
 import React from "react";
 import twinoaks from "../images/twin-oaks.png";
 import appleton from "../images/appleton.png";
+import backgroundwine from "../images/backgroundwine.png";
+
 const InlcudedSection = () => {
   return (
     <div className="containerliquor">
-      <div className="leftside">
-        <div className="backgroundimgwine">
+      <div className="leftsidesection">
+        <div className="winecontainer">
           <p className="includedtext">INCLUDED</p>
-          <div className="bottleimg"></div>
+          <img src={backgroundwine} alt= "backgroundwine"/>
+          <div className="bottleimg" ></div>
         </div>
         <div className="descriptionarea">
-          <img src={twinoaks} alt="logos" className="logos" />
+          <img src={twinoaks} alt="logos1" className="logos1" />
           <h2 className="textincluded">Premium House Wines</h2>
-          <p className="includedcontent">
+          <p className="includedcontent2">
             We've raised the bar by partnering with Robert Mondavi Twin Oaks
             <sup>
               <span>&#174;</span>
@@ -20,29 +23,29 @@ const InlcudedSection = () => {
             . Selected for Sandals Resorts, there are 6 varietals to choose
             from, each one complementing our gourmet dining perfectly.
           </p>
-          <h4>
+          <h4 className="learnMorecolor">
             LEARN MORE <span className="bluebutton">&#9658;</span>
           </h4>
         </div>
       </div>
-      <div className="rightside">
+      <div className="rightsidesection">
         <div className="backgroundimgrum">
           <p className="includedtext">INCLUDED</p>
         </div>
         <div className="descriptionarea">
           <img src={appleton} alt="logos2" className="logos2" />
-          <h2 className="textincluded">
+          <h2 className="textincluded2">
             Appleton
-            <sup>
+            <sup className="transparentsup">
               <span>&#174;</span>
-            </sup>{" "}
+            </sup>
             Estate Jamaica Rum
           </h2>
-          <p className="includedcontent">
+          <p className="includedcontent2">
             An iconic Jamaica product and internationally acclaimed rum brand,
             is poured at all Beaches Resorts throughout the Caribbean.
           </p>
-          <h4>
+          <h4 className="learnMorecolor">
             LEARN MORE <span className="bluebutton">&#9658;</span>
           </h4>
         </div>

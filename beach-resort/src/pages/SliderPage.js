@@ -32,7 +32,7 @@ const SliderPage = () => {
         <div className="blackbox">
           <div className="lineborder">
             <img className="safeLogo" src={safelogo} alt="safeLogo" />
-            <p>
+            <p className="textinlogo">
               And all Beaches bartenders are trained and certified by ServSafe
               <sup>
                 <span>&#174;</span>

@@ -20,7 +20,7 @@ $backgroundimg6: url("../images/Bahama.png");
     display: flex;
     width: 20rem;
     height: 20rem;
-    grid-column: span 3;
+    grid-column: span 4;
 }
 @mixin circleradiuscontent{
     background-size: 20rem;
@@ -46,7 +46,7 @@ $backgroundimg6: url("../images/Bahama.png");
     left:9rem;
 }
 .backgroundimg1{
-    background-image: radial-gradient(circle , transparent 10%,white 90%), $backgroundimg1;
+    background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg1;
     @include backgroundcontent;
 }
 
@@ -63,14 +63,14 @@ $backgroundimg6: url("../images/Bahama.png");
 
 .drinkName{
     font-family: $nunitotext;
+    align-items: center;
     position:relative;
     top:9rem;
     width: 7rem;
-    right: 28rem;
-}
+    right: 18rem;}
 
 .backgroundimg2{
-    background-image: radial-gradient(circle , transparent 10%,white 90%), $backgroundimg2;
+    background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg2;
     @include backgroundcontent();
 }
 
@@ -94,7 +94,7 @@ $backgroundimg6: url("../images/Bahama.png");
 }
 
 .backgroundimg3{
-    background-image: radial-gradient(circle , transparent 0%,white 100% ), $backgroundimg3;
+    background-image: radial-gradient(circle , transparent 90%,white 10% ), $backgroundimg3;
     @include backgroundcontent();
 }
 
@@ -118,7 +118,7 @@ $backgroundimg6: url("../images/Bahama.png");
 }
 
 .backgroundimg4{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg4;
+    background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg4;
     @include backgroundcontent();
 }
 
@@ -142,7 +142,7 @@ $backgroundimg6: url("../images/Bahama.png");
 }
 
 .backgroundimg5{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg5;
+    background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg5;
     @include backgroundcontent();
 }
 
@@ -165,7 +165,7 @@ $backgroundimg6: url("../images/Bahama.png");
     left: -0.05rem;
 }
 .backgroundimg6{
-    background-image: radial-gradient(circle , transparent 30%,white 70%), $backgroundimg6;
+    background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg6;
     @include backgroundcontent();
 }
 

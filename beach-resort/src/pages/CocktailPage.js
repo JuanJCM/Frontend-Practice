@@ -1,10 +1,4 @@
 import React from "react";
-import rum from "../images/Rum.png";
-import mojito from "../images/Mojito.png";
-import margarita from "../images/Margarita.png";
-import pina from "../images/Pina.png";
-import lagoon from "../images/lagoon.png";
-import bahama from "../images/Bahama.png";
 import CocktailComponent from "./CocktailComponent";
 import InlcudedSection from "./IncludedSection";
 const CocktailPage = () => {
@@ -15,8 +9,7 @@ const CocktailPage = () => {
       </h1>
       <h3 className="barspubs">IN OUR BARS & PUBS</h3>
       <div className="typeofdrinks">
-        <h4>OUR BARTENDERS ARE EXPERTS AT POURING</h4>
-        <h4>& MIXING THE BEST COCKTAILS</h4>
+        <h4 className="bluecocktails">OUR BARTENDERS ARE EXPERTS AT POURING & MIXING THE BEST COCKTAILS</h4>
       </div>
       <br />
       <br />
@@ -28,8 +21,8 @@ const CocktailPage = () => {
       </div>
       <div>
         <h3 className="premiumliquors">
-          AND MANY MORE WITH OUR PREMIUM LIQUORS AT{" "}
-          <h3 className="extracost">NO EXTRA COST!</h3>
+          AND MANY MORE WITH OUR PREMIUM LIQUORS AT
+          <span className="extracost"> NO EXTRA COST!</span>
         </h3>
         <div className="learnMoresection">
           <InlcudedSection/>

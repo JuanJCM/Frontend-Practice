@@ -1,7 +1,8 @@
 $palmimg: url("../images/palm-background.png");
 $textcolor: #00b7f2;
 $liquorback: url("../images/liquorman.png");
-
+$nunitotext: "Nunito", Bold;
+$openSans: "OpenSans", Normal;
 .SponsorPage{
     background-image: $palmimg;
     text-align: center;
@@ -16,13 +17,13 @@ $liquorback: url("../images/liquorman.png");
     h1.title{
         padding-top: 3rem;
         color:$textcolor;
-        font-family: 'Nunito', Extrabold;
+        font-family: 'Nunito', Semibold;
         border-bottom: 1px solid white;
     }
     p{
         background-color: transparent;
         color: white;
-        font-family: 'OpenSans';
+        font-family: $nunitotext;
         font-size: 14px;
         line-height: 15px;
         
@@ -53,7 +54,7 @@ $liquorback: url("../images/liquorman.png");
     }
 }
 
-* .lightbox{
+.lightbox{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -67,7 +68,7 @@ $liquorback: url("../images/liquorman.png");
     background-color: rgba($color: #000000, $alpha: 0.6);
 }
 
-* .hide-lightbox{
+ .hide-lightbox{
     display:none;
     opacity: 0;
     z-index: -1;

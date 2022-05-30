@@ -1,6 +1,6 @@
-.backgroundimgwine{
-    background-image: url("../images/Layer\ 831\ 2.png");
+.winecontainer{
     background-position-y:0rem; 
+    flex-wrap: wrap;
     background-position-x: 0rem;
     background-size: 20.2rem; 
     border-radius: 50%;
@@ -10,20 +10,24 @@
     justify-content: center;
     width: 20rem;
     height: 20rem;
-    border: 0.3rem solid blue;
+    border: 0.3rem solid $textcolor;
     max-width: 100%;
-
+    position: relative;
+    overflow: hidden;
 }
 
 .includedtext{
-    background-color: aqua;
+    background-color: $textcolor;
     color: white;
     position: relative;
-    z-index: 1;
+    top: 1rem;
     height:1rem;
     width: 12rem;
     max-width: 100%;
     left: 4rem;
+    align-items: center;
+    justify-content: center;
+    display:flex;
 }
 
 .bottleimg{
@@ -37,32 +41,38 @@
 .descriptionarea{
     background: linear-gradient(to bottom,rgba(lightgray, $alpha: 0.6) 40%,transparent 60%);
     border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
     align-items: center;
     justify-content: center;
+    width: 20rem;
+    height: 20rem;
     position: relative;
-    bottom: 8rem;
+    bottom: 7rem;
 }
 
-*{
-    text-align: center;
-    justify-content: center;    
-}
-.logos{
+
+.logos1{
     height: 3rem;
     padding-top: 2.6rem;
+    position: relative;
+    left: 4rem;
 }
 .bluebutton{
-    color: blue;
-    border-color: blue;
+    text-align: center;
+    justify-content: center;
+    color: $textcolor;
+
 }  
 .containerliquor{
     display: grid;
     grid-template-columns: repeat(12,2fr);
 
 }
-
+.leftsidesection{
+    grid-column: 2/span 4;
+}
+.rightsidesection {
+    grid-column: 8/span 4;
+}
 .backgroundimgrum{
     background: url("../images/appleton-bottles.png");
     width: 20rem;
@@ -70,21 +80,54 @@
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.5rem solid blue;
+    border: 0.3rem solid $textcolor;
 }
-.leftside{
-    grid-column: span 6;
-}
-.rightside {
-    grid-column: span 6;
-}
+
 .logos2{
     height: 4rem;
     margin-top: 2.6rem;
+    position: relative;
+    left: 3.5rem;
 }
 .textincluded{
-    font-size: 2rem ;
+    font-size: 1.6rem ;
+    text-align: center;
+    justify-content: center;
+    font-family: $nunitotext;
+    margin-bottom: 1rem;
 }
 .includedcontent{
     background-color: transparent;
+    width: 23rem;
+    font-family: $nunitotext;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 1rem;
+}
+
+.includedcontent2{
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    font-family: $nunitotext;
+}
+.learnMorecolor{
+    font-family: $nunitotext;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.transparentsup{
+    background-color: transparent;
+}
+.textincluded2{
+    font-size: 1.3rem ;
+    width: 15rem;
+    text-align: center;
+    justify-content: center;
+    font-family: $nunitotext;
+    margin-bottom: 0.5rem;
+    padding-left: 2.5rem;
 }

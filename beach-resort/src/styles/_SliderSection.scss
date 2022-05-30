@@ -1,16 +1,14 @@
 .sliderSection{
+    display: flex;
     background-color: white;
     height: 50rem;
     align-items: center;
     text-align: center;
-    .swiper-button-next{
-        right: 65rem;
-        margin-top: 22rem;
-        color: black;
-    }
-    .swiper-button-prev{
-        left: 65rem;
-        margin-top: 22rem;
+    font-family: $nunitotext;
+
+    .swiper-button-next, .swiper-button-prev{
+        margin-left: 3rem;
+        margin-right: 3rem;
         color: black;
     }
     SwiperSlide{

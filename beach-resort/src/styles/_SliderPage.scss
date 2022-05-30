@@ -1,6 +1,5 @@
 $backgroundcolor: white;
-$nunitotext: "Nunito", Bold;
-$openSans: "OpenSans", Normal;
+
 .SliderPage {
   background-color: $backgroundcolor;
   height: 600px;
@@ -49,9 +48,9 @@ $openSans: "OpenSans", Normal;
       grid-column: 2;
       align-items: center;
       height: 21rem;
-      width: 15rem;
+      width: 18rem;
       align-items: center;
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
     .lineborder {
       border: 0.250rem solid white;
@@ -71,4 +70,10 @@ $openSans: "OpenSans", Normal;
     background-color: bisque;
     grid-column: span 2;
   }
+}
+.textinlogo{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.7rem;
 }

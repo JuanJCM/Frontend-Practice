@@ -6,17 +6,17 @@ const Header = () => {
   return (
     <div className="header">
       <div className="Appbar">
-        <p className="Search">Search</p>
-        <p>Local Tours</p>
-        <p>
+        <p className="Search">Search... <span className="magnifyingglass">&#8981;</span></p>
+        <p className="AlreadyBooked">Already Booked?</p>
+        <p className="BeforeArrive">Before You Arrive</p>
+        <p className="RedLane">
           Red Lane
           <sup>
             <span>&#174;</span>
           </sup>
           Spa
         </p>
-        <p>Before You Arrive</p>
-        <p>Already Booked?</p>
+        <p className="LocalTours">Local Tours</p>
       </div>
       <div className="Titlebar">
         <div className="beacheslogo">

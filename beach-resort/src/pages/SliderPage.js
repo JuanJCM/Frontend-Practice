@@ -12,16 +12,16 @@ const SliderPage = () => {
           <p>
             With unlimited drinks in as many as 15 bars per resort, nobody knows
             how to party like Beaches.
-          </p>
-          <p>
+          
+          
             By day, swim-up bars, oceanside bars, and beachside divans invite
             you to indulge in chilled rum
-          </p>
-          <p>
+          
+          
             concoctions and any beverage of your choice. By night, go bar
             hopping or dance barefoot to the{" "}
-          </p>
-          <p>
+          
+          
             exotic rhythms of island music at beachside watering holes-all under
             a canopy of stars.
           </p>

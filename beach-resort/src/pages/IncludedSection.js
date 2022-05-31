@@ -9,8 +9,12 @@ const InlcudedSection = () => {
       <div className="leftsidesection">
         <div className="winecontainer">
           <p className="includedtext">INCLUDED</p>
-          <img src={backgroundwine} alt= "backgroundwine"/>
-          <div className="bottleimg" ></div>
+          <img
+            src={backgroundwine}
+            alt="backgroundwine"
+            className="backgroundwine"
+          />
+          <div className="bottleimg"></div>
         </div>
         <div className="descriptionarea">
           <img src={twinoaks} alt="logos1" className="logos1" />

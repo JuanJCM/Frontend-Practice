@@ -24,6 +24,7 @@ const SliderSection =()=> {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="sliderSection"
+        
       >
         <SwiperSlide className="slide1"><img src={slide1} alt="slide1"/> </SwiperSlide>
         <SwiperSlide><img src={slide2} alt="slide2"/></SwiperSlide>

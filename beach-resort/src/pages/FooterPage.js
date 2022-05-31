@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import unlimitedliquors from "../images/Footer-photo.jpg";
 import playbutton from "../images/play-button-border.png";
 const FooterPage = () => {
   const [hideLightbox, $setHideLightbox] = useState(true);
@@ -17,7 +16,7 @@ const FooterPage = () => {
             <p className="widthp">Play Video</p>
           </div>
           <div className="text-button">
-            <p className="white-text">Unlimited Premium Liquors</p>
+            <p className="white-text">UNLIMITED PREMIUM LIQUORS</p>
             <p className="blue-text">ARE INCLUDED AT BEACHES</p>
           </div>
         </div>

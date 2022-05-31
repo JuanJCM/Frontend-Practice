@@ -1,14 +1,16 @@
 $backgroundcolor: #00b8f4;
-
+$openSanstext: 'OpenSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 .Appbar {
-  display: flex;
+  display: grid;
   background-color: black;
   text-align: right;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+  padding-right: 3rem;
   background-size: cover;
-  height: 1.43rem;
-
+  height: 2rem;
+  font-family: $openSanstext;
+  grid-template-columns: repeat(12, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
 p {
@@ -21,6 +23,7 @@ p {
   cursor: pointer;
   font-size: 12px;
   color: #797979;
+  grid-column: span 1;
 }
 .sup {
   background-color: black;
@@ -34,20 +37,22 @@ p.Search{
   margin-top: 0px;
   padding-bottom: 0px;
   margin-bottom: 22px;
-  
+  grid-column: 12;
   border: 1px solid #797979;
   cursor: pointer;
   font-size: 12px;
   color: #797979;
+  align-items: center;
+  justify-content: center;
 }
 
 .Titlebar {
   background-color: $backgroundcolor;
   display: grid;
   color: white;
-  height: 3.5rem;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: flex-end;
+  height: 4.5rem;
+  grid-template-columns: repeat(11, 1fr);
+  align-items: center;
 }
 
 .companylogo {
@@ -58,21 +63,18 @@ p.Search{
   padding-left: 10px;
 }
 .booknowbutton {
-  font-family: 'OpenSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: $openSanstext;
   background-color: $backgroundcolor;
   cursor: pointer;
   margin-top: 0px;
   margin-bottom: 0px;
-  border-right: 1px;
-  border-color: rgb(163, 142, 142);
-  border: solid;
-  border-top: 0px;
-  border-left: 0px;
-  border-bottom: 0px;
+  border-right: 0.1rem solid white;
   text-align: right;  
-  grid-column: 4;
+  grid-column: 10;
   align-items: right;
   justify-content:right;
+  height: 100%;
+  width: 10rem;
   h1 {
     background-color: transparent;
     margin-top: 5px;
@@ -99,10 +101,7 @@ p.Search{
     background-color: beige;
   }
 }
-.booknowbutton:hover {
-    background-color: #00b8d1;
-    
-}
+
 
 .companylogo{
    height: 50px;
@@ -113,4 +112,27 @@ p.Search{
   height: 3rem;
   padding-left: 1rem;
   padding-top: 0.2rem;
+}
+.magnifyingglass{
+  position: relative;
+  left: 3rem;
+}
+
+.AlreadyBooked{
+  grid-column: 8;
+  grid-row: 1;
+}
+.BeforeArrive{
+  grid-column: 9;
+  grid-row: 1;
+}
+
+.RedLane{
+  grid-column: 10;
+  grid-row: 1;
+}
+.LocalTours{
+  grid-column: 11;
+  grid-row: 1;
+  padding-right: 2.5rem;
 }

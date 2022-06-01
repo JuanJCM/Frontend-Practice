@@ -1,112 +1,48 @@
-.backgroundimg{
-    background-image: url("../src/images/Layer\ 831\ 2.png");
-    background-position-y:0rem; 
-    background-position-x: 0rem;
-    background-size: 20.2rem; 
-    border-radius: 50%;
-    height: auto;
-    background-repeat: no-repeat;
+.swimupContainer{
+    width: 100%;
+    height: 100%;
     text-align: center;
-    justify-content: center;
-    width: 20rem;
-    height: 20rem;
-    border: 0.3rem solid blue;
-    max-width: 100%;
-
-}
-
-.circleradius{
-    background-image: url("../src/images/rum.png");
-    background-size: 20rem;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 50%;
-    border: 0.4rem solid white;
-    height: 15rem;
-    align-items: center;
-    justify-content: center;
-    width: 15rem;
-    position: fixed;
-    top: 2rem;
-
-}
-.imgsobresale{
-    background-image: url("../src/images/pineapple-rum.png");
-    height: 6rem;
-    max-width: auto;
-    width:7.5rem;
-    position: relative;
-    z-index: 1000;
-    background-repeat: no-repeat;
-    background-size:contain;
-    top: 4rem;
-    left:9rem;
-
-}
-.includedtext{
-    background-color: aqua;
-    color: white;
-    position: relative;
-    z-index: 1;
-    height:1rem;
-    width: 12rem;
-    max-width: 100%;
-    left: 4rem;
-}
-
-.bottleimg{
-    background-image: url("../src/images/Bottles.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: relative;
-    top: -1rem;
-    height: 21rem;
-}
-.descriptionarea{
-    background: linear-gradient(to bottom,rgba(lightgray, $alpha: 0.6) 40%,transparent 60%);
-    border-radius: 50%;
-    width: 20rem;
-    height: 20rem;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    bottom: 8rem;
-}
-
-*{
-    text-align: center;
-    justify-content: center;    
-}
-.logos{
-    height: 3rem;
-    padding-top: 2.6rem;
-}
-.bluebutton{
-    color: blue;
-    border-color: blue;
-}  
-.containerliquor{
     display: grid;
-    grid-template-columns: repeat(12,2fr);
-
+    grid-template-columns: repeat(12,1fr);
 }
 
-.backgroundimg2{
-    background: url("../src/images/appleton-bottles.png");
+.backgroundContainer{
     width: 20rem;
-    height: 20rem;
+    grid-column: 5/span 3;
+    align-items: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: radial-gradient(circle at center, rgba(black, 0.3)10%, transparent 90% );
+    color: white;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 0.5rem solid blue;
 }
-.leftside{
-    grid-column: span 6;
+.blackRectanglesection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 35rem;
+    height: 2.5rem;
+    grid-column: 5/span 5;
 }
-.rightside {
-    grid-column: span 6;
+.parragraphtitle{
+
+    margin-right: 11rem;
+    margin-left: 12rem;
 }
-.logos2{
-    height: 4rem;
-    margin-top: 2.6rem;
+.bigTitle{
+    margin-bottom: -1rem;
+}
+.lines{
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.checkincontainer{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
 }

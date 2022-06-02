@@ -48,7 +48,7 @@ const SliderSection = () => {
             <img src={slide2} alt="slide2" />
             <div className="swimupContainer">
               <div className="backgroundContainer">
-                <h1 className="bigTitle">Share with someone</h1>
+                <h1 className="bigTitle">Share Time</h1>
                 <h4 className="smallTitle">POOL BARS</h4>
                 <div className="checkincontainer">
                   <div className="blackRectanglesection">

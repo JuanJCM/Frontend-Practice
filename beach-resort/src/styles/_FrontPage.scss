@@ -24,6 +24,7 @@ $goldencolor: #c19a45;
     flex-direction: column;
     text-align: center;
     color: white;
+    vertical-align: top;
     align-items: center;
     object-fit: contain;
     background-position: center;
@@ -31,10 +32,10 @@ $goldencolor: #c19a45;
         text-align: center;
         background-color: transparent;
         font-family: 'OpenSans', Semibold, 'Nunito', ExtraBold ;
-        font-size: 3.5rem;
+        font-size: 5rem;
         padding:0px;
         margin-top: -10px;  
-        width: 35rem;
+        width: 55rem;
     }
     h4{
         font-size: 1.25rem;
@@ -69,15 +70,24 @@ $goldencolor: #c19a45;
     color: $goldencolor;
 }
 .lines::before{
-    content: '\2014';   
+    transform: translateX(-101%);
+    position: absolute;
+    background: linear-gradient(90deg, transparent, $goldencolor);
+    width: 15%;
+    height: 1px;
+    content: '';   
     color: $goldencolor;
-    position:relative ;
-
+    margin-top: 0.7rem;
 }
 .lines::after{
-    content: '\2014';    
+    transform: translateX(1%);
+    position: absolute;
+    background: linear-gradient(90deg, $goldencolor, transparent);
+    width: 15%;
+    height: 1px;
+    content: '';   
     color: $goldencolor;
-    background: linear-gradient(transparent);
+    margin-top: 0.7rem ;
 }
 
 .lines{

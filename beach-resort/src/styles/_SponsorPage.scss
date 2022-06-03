@@ -19,6 +19,9 @@ $openSans: "OpenSans", Normal;
         color:$textcolor;
         font-family: 'Nunito', Semibold;
         border-bottom: 1px solid white;
+        @media (max-width: $large) {
+            border-bottom: 0px;
+         }
     }
     p{
         background-color: transparent;
@@ -54,7 +57,10 @@ $openSans: "OpenSans", Normal;
         }
     }
 }
-
+.textarea{
+    justify-content: center;
+    align-items: center;
+}
 .lightbox{
     display: flex;
     align-items: center;
@@ -79,4 +85,10 @@ $openSans: "OpenSans", Normal;
     height: 23rem;
     width: 40rem;
 
+}
+
+.sponsorText{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

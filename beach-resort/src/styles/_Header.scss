@@ -18,6 +18,10 @@ $openSanstext: 'OpenSans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'
   justify-content: center;
   align-items: center;
   vertical-align: middle;
+  @media (max-width: $large) {
+    height: 4rem;
+    grid-template-columns: repeat(6, 1fr);
+  } 
 }
 
 p {
@@ -30,6 +34,9 @@ p {
   font-size: 12px;
   color: #797979;
   grid-column: span 1;
+  @media (max-width: $large) {
+    width: 90%;
+  }
 }
 .sup {
   background-color: black;
@@ -53,6 +60,10 @@ p.Search{
   height: 1.5rem;
   vertical-align: bottom;
   border-radius: 3px;
+  @media (max-width: $large) {
+    width: 80%;
+    grid-column: 6;
+ }
 }
 
 .Titlebar {
@@ -83,6 +94,9 @@ p.Search{
   width: 10rem;
   vertical-align: middle;
   padding-right: 1.5rem;
+  @media (max-width: $large) {
+    padding-left: 4rem;
+  }
   h1 {
     background-color: transparent;
     margin-top: 1rem;
@@ -100,8 +114,10 @@ p.Search{
     //background-image: url('../../images/beaches-blanco.png');
     background-size: cover;
     background-color: beige;
-
     margin-left: 10rem;
+    @media (max-width: $large) {
+      margin-left: 1rem;
+    }
   }
 }
 
@@ -116,32 +132,60 @@ p.Search{
    height: 50px;
    padding-left: 60px;
    padding-right: 100px;
+   @media (max-width: $large) {
+   padding-left: 0px;
+   padding-right: 150px;
+  }
 }
 .ellipsisicon{
   position: absolute;
   height: 2rem;
   padding-left: 1rem;
   bottom: 77rem;
+  @media (max-width: $large) {
+    bottom: 70.2rem;
+    height: 3rem;
+    left: 44rem;
+ }
 }
 .magnifyingglass{
   position: relative;
   left: 3rem;
+  @media (max-width: $large) {
+    right: 1rem;
+  }
 }
 
 .AlreadyBooked{
   grid-column: 11;
   grid-row: 1;
+  @media (max-width: $large) {
+    width: 70%;
+    grid-column: 5;
+  }
 }
 .BeforeArrive{
   grid-column: 10;
   grid-row: 1;
+  @media (max-width: $large) {
+    width: 70%;
+    grid-column: 4;
+  }
 }
 
 .RedLane{
   grid-column: 9;
   grid-row: 1;
+  @media (max-width: $large) {
+    width: 70%;
+    grid-column: 3;
+  }
 }
 .LocalTours{
   grid-column: 8;
   grid-row: 1;
+  @media (max-width: $large) {
+    width: 70%;
+    grid-column: 2;
+  }
 }

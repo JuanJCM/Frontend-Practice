@@ -9,22 +9,17 @@ const SponsorPage = () => {
       <div className="textarea">
         <h1 className="title">Hallmark of Excellence</h1>
         <br />
-        <p>
+        <p className="sponsorText">
           As part of the 5-Star Luxury included
           <sup>
             <span>&#174;</span>
-          </sup>{" "}
-          experience, Beaches only serves premium brand liquors-and they're{" "}
-        </p>
-        <p>
+          </sup>
+          experience, Beaches only serves premium brand liquors-and they're
           always included and unlimited. Quality and excellence are the
           hallmarks of Beaches, making us one of the
-        </p>
-        <p>
           most trusted brands in the world. It's this proven track record and
           best-in-class approach that has our guests
-        </p>
-        <p>returning time and time again.</p>
+          returning time and time again.</p>
         <br />
       </div>
       <div className="sponsorlist">

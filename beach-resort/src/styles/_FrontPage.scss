@@ -36,6 +36,9 @@ $goldencolor: #c19a45;
         padding:0px;
         margin-top: -10px;  
         width: 55rem;
+        @media (max-width: $large) {
+            font-size: 3.5rem;
+         }
     }
     h4{
         font-size: 1.25rem;

@@ -44,6 +44,9 @@ $openSans: "OpenSans", Normal;
         background-repeat: no-repeat;
         display:grid;
         grid-template-columns: repeat(3,2fr);
+        @media (max-width: $small) {
+            width: 20rem;
+         }
     }
     .playbutton{
         background-color: rgba($color: #000000, $alpha: 0.6);
@@ -54,6 +57,14 @@ $openSans: "OpenSans", Normal;
         .whitebutton{
             size: 3rem;
             background-color: transparent;
+            @media (max-width: $small) {
+                size: 1rem;
+             }
+        }
+        @media (max-width: $small) {
+            width: 5rem;
+            height: 5rem;
+            margin-bottom: 13rem;
         }
     }
 }
@@ -74,7 +85,11 @@ $openSans: "OpenSans", Normal;
     transition: 0.5, all;
     background-color: rgba($color: #000000, $alpha: 0.6);
 }
-
+.logos{
+    @media (max-width: $large) {
+        width: 20rem;
+     }
+}
  .hide-lightbox{
     display:none;
     opacity: 0;
@@ -88,7 +103,7 @@ $openSans: "OpenSans", Normal;
 }
 
 .sponsorText{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+    @media (max-width: $large) {
+        padding-left: 1rem;
+     }
 }

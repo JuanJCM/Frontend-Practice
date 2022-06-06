@@ -1,11 +1,10 @@
 import React from "react";
-import star from "../icons/star.svg";
 import liquor from "../images/premium-liquor.png";
 const FrontPage = () => {
   return (
     <div className="logo">
-      <h4>Only The World's Best Serves</h4>
-      <h1>THE WORLD'S BEST</h1>
+      <h4 className="frontheadertitle">Only The World's Best Serves</h4>
+      <h1 className="frontpageHeader">THE WORLD'S BEST</h1>
       <div className="lines">
         <span className="stars">&#9733; &#9733; &#9733; &#9733; &#9733;</span>
       </div>

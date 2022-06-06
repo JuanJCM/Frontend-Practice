@@ -38,7 +38,7 @@ const SliderPage = () => {
                 <span>&#174;</span>
               </sup>
               , a rigorous food and beverage safety training and certification
-              program administered by the National Restaurant Association
+              program administered by the National Restaurant Association.
             </p>
           </div>
         </div>

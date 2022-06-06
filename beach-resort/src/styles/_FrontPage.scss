@@ -28,7 +28,7 @@ $goldencolor: #c19a45;
     align-items: center;
     object-fit: contain;
     background-position: center;
-    h1{
+    .frontpageHeader{
         text-align: center;
         background-color: transparent;
         font-family: 'OpenSans', Semibold, 'Nunito', ExtraBold ;
@@ -39,12 +39,21 @@ $goldencolor: #c19a45;
         @media (max-width: $large) {
             font-size: 3.5rem;
          }
+         @media (max-width: $small) {
+            font-size: 1.5rem;
+            width: 15rem;
+         }
     }
-    h4{
+    .frontheadertitle{
         font-size: 1.25rem;
         font-family: 'OpenSans', Semibold, 'Nunito', ExtraBold;
         width: 35rem;
         background-color: transparent;
+        @media (max-width: $small) {
+            font-size: 0.75rem;
+            width: 12rem;
+            margin-bottom: 0.5rem;
+         }
     }
     h4.yellowmellow{
         color:$goldencolor;
@@ -53,7 +62,16 @@ $goldencolor: #c19a45;
         font-family: 'Good Foot', regular;
         margin-top: 8px;
         margin-bottom: 30px;
+        @media (max-width: $small) {
+            font-size: 1rem;
+            width: 12rem;
+         }
     }
+    @media (max-width: $small) {
+        width: 1rem;
+        height: 20rem;
+        padding: 11.23rem;
+     }
     
 }
 .imgron{
@@ -101,4 +119,8 @@ $goldencolor: #c19a45;
     height: 40rem;
     width: 35rem;
     box-shadow: 0px -5px 11px gray;
+    @media (max-width: $small) {
+        height: 20rem;
+        width: 15rem;
+    }
 }

@@ -8,6 +8,7 @@ $backgroundcolor: white;
   padding-left: 10rem;
   padding-right: 10rem;
   @media (max-width: $large) {
+    height: 40rem;
     grid-template-rows: repeat(2,1fr);
     padding-left: 1rem;
     padding-right: 1rem;
@@ -66,7 +67,7 @@ $backgroundcolor: white;
       margin-top: 1rem;
       @media (max-width: $large) {
         width: 42rem;
-        height: 19rem;
+        height: 15.5rem;
       }
     }
     .lineborder {
@@ -105,4 +106,10 @@ $backgroundcolor: white;
   font-size: 0.7rem;
   width: 12rem;
   line-height: 1.3rem;
+  @media (max-width: $large) {
+    width:25rem;
+    text-align: left;
+    font-size: 0.75rem;
+    padding-left: 1rem;
+  }
 }

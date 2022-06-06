@@ -9,6 +9,7 @@
     .blacktitle{
         color: black;
     }
+
 }
 .barspubs{
     text-align: center;
@@ -38,6 +39,12 @@
     background-color: white;
     padding-left: 10rem;
     padding-right: 10rem;
+    @media (max-width: $large) {
+        width: 100%;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        height: 126rem;
+    }
 }
 .typeofdrinks{
     text-align: center;
@@ -50,7 +57,7 @@
     max-width: 100%;
 }
 @mixin cocktailheight{
-    height: 350px;
+    height: 300px;
 }
 .photococktail{
     display: grid;

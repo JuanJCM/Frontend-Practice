@@ -10,6 +10,10 @@ $backgroundimg6: url("../images/Bahama.png");
     grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: center;
+    @media (max-width: $large) {
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
 }
 @mixin backgroundcontent{
     background-position: center;
@@ -25,6 +29,9 @@ $backgroundimg6: url("../images/Bahama.png");
     grid-column: span 4;
     margin-left: auto;
     margin-right: auto;
+    @media (max-width: $large) {
+        grid-column: span 6;
+    }
 }
 @mixin circleradiuscontent{
     background-size: 20rem;
@@ -96,6 +103,9 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: -2.5rem;
     left: -1.8rem;
+    @media (max-width: $large) {
+        width: 20rem;
+    }
 }
 
 .backgroundimg3{

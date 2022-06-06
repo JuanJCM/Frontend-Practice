@@ -26,7 +26,7 @@ const SliderSection = () => {
           className="sliderSection"
         >
           <SwiperSlide className="slide1">
-            <img src={slide1} alt="slide1" />
+            <img src={slide1} alt="slide1" className="slide1"/>
             <div className="swimupContainer">
               <div className="backgroundContainer">
                 <h1 className="bigTitle">SWIM-UP</h1>
@@ -45,7 +45,7 @@ const SliderSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide2} alt="slide2" />
+            <img src={slide2} alt="slide2" className="slide2" />
             <div className="swimupContainer">
               <div className="backgroundContainer">
                 <h1 className="bigTitle">Share Time</h1>
@@ -64,7 +64,7 @@ const SliderSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide3} alt="slide3" />
+            <img src={slide3} alt="slide3"  className="slide3"/>
             <div className="swimupContainer">
           <div className="backgroundContainer">
             <h1 className="bigTitle">Comfort Space</h1>
@@ -80,7 +80,7 @@ const SliderSection = () => {
 
           </SwiperSlide>
           <SwiperSlide>
-            <img src={slide4} alt="slide4" />
+            <img src={slide4} alt="slide4" className="slide4" />
             <div className="swimupContainer">
           <div className="backgroundContainer">
             <h1 className="bigTitle">Private Places</h1>

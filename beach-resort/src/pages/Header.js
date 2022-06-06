@@ -27,7 +27,7 @@ const Header = () => {
         <div className="rightheader">
           <div className="booknowbutton">
             <h1>BOOK NOW</h1>
-            <h5>CHECK RATES & AVAILABILITY</h5>
+            <h5 className="checkRates">CHECK RATES & AVAILABILITY</h5>
           </div>
           <div className="moreicon">
             <img className="ellipsisicon" src={circles} alt="circles" />

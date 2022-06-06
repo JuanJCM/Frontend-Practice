@@ -87,9 +87,15 @@
 }
 .leftsidesection{
     grid-column: 2/span 4;
+    @media (max-width: $large) {
+        grid-column: 1/6;
+    }
 }
 .rightsidesection {
     grid-column: 8/span 4;
+    @media (max-width: $large) {
+        grid-column: 7/span 4;
+    }
 }
 .backgroundimgrum{
     background: url("../images/appleton-bottles.png");

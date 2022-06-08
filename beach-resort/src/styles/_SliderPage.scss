@@ -13,6 +13,9 @@ $backgroundcolor: white;
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  @media(max-width: $small){
+    height: 70rem;  
+  }
   .leftside {
     .textmood {
       p {
@@ -45,6 +48,9 @@ $backgroundcolor: white;
       align-items: center;
       text-align: center;
     }
+    @media(max-width: $small){
+      padding-right: 1rem;
+    }
   }
   .rightside {
     display: grid;
@@ -69,6 +75,10 @@ $backgroundcolor: white;
         width: 42rem;
         height: 15.5rem;
       }
+      @media(max-width: $small){
+        width: 20rem;
+        height: 25rem;
+      }
     }
     .lineborder {
       border: 0.20rem solid white;
@@ -84,7 +94,9 @@ $backgroundcolor: white;
       justify-content: center;
       @media (max-width: $large) {
         flex-direction: row;
-        
+      }
+      @media (max-width: $small) {
+        flex-direction: column;
       }
     }
     @media (max-width: $large) {
@@ -111,5 +123,9 @@ $backgroundcolor: white;
     text-align: left;
     font-size: 0.75rem;
     padding-left: 1rem;
+  }
+  @media(max-width: $small){
+    width:15rem;
+    padding-top: 2rem;
   }
 }

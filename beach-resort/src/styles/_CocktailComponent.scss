@@ -32,6 +32,10 @@ $backgroundimg6: url("../images/Bahama.png");
     @media (max-width: $large) {
         grid-column: span 6;
     }
+    @media (max-width: $small) {
+        height: 10rem;
+        width: 10rem;
+    }
 }
 @mixin circleradiuscontent{
     background-size: 20rem;
@@ -44,6 +48,12 @@ $backgroundimg6: url("../images/Bahama.png");
     justify-content: center;
     width: 15rem;
     top: 2rem;
+    @media (max-width: $small) {
+        height: 7.2rem;
+        width: 7.2rem;
+        background-size: 10rem;
+        border: 0.2rem solid white;
+    }
 }
 @mixin imgsobresalecontent{
     height: 6rem;
@@ -55,6 +65,12 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: 4rem;
     left:9rem;
+    @media (max-width: $small) {
+        height: 3rem;
+        width: 4.5rem;
+        left: 4rem;
+        top:1.8rem;
+    }
 }
 .backgroundimg1{
     background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg1;
@@ -106,6 +122,11 @@ $backgroundimg6: url("../images/Bahama.png");
     @media (max-width: $large) {
         width: 20rem;
     }
+    @media (max-width: $small) {
+        width: 10rem;
+        top: -1.5rem;
+        left: -1.2rem;
+    }
 }
 
 .backgroundimg3{
@@ -130,6 +151,10 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: 2.15rem;
     left:-1.3rem;
+    @media (max-width: $small) {
+        width: 9rem;
+        top: 1rem;
+    }
 }
 
 .backgroundimg4{
@@ -154,6 +179,11 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: 3.9rem;
     left:-1.8rem;
+    @media (max-width: $small) {
+        width: 5rem;
+        top: 1.5rem;
+        left: -1.5rem;
+    }
 }
 
 .backgroundimg5{
@@ -178,6 +208,11 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: 3.65rem;
     left: -0.05rem;
+    @media (max-width: $small) {
+        width: 10rem;
+        height: 0.75rem;
+        top: 1.65rem;
+    }
 }
 .backgroundimg6{
     background-image: radial-gradient(circle , transparent 90%,white 10%), $backgroundimg6;
@@ -201,4 +236,10 @@ $backgroundimg6: url("../images/Bahama.png");
     background-size:contain;
     top: 0.4rem;
     left: -1.9rem;
+    @media (max-width: $small) {
+        width: 12rem;
+        height: 3.5rem;
+        left: -1.2rem;
+        top: 0rem;
+    }
 }

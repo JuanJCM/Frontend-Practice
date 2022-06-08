@@ -9,10 +9,26 @@
         font-size: 2rem;
         padding-left: 3rem;
         padding-right: 3rem;
+        @media (max-width: $small) {
+            text-align: center;
+            width: 14rem;
+            font-size: 1.5rem;
+        }
+    }
+    .moretext{
+        @media (max-width: $small) {
+            text-align: center;
+            font-size: 2rem;
+            width: 14rem;
+        }
     }
 }
 .useOpenstext{
     font-family: $openSanstext;
     padding-top: -2rem;
-
+    @media (max-width: $small) {
+        text-align: center;
+        font-size: 1rem;
+        width: 16rem;
+    }
 }

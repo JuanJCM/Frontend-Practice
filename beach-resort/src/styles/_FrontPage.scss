@@ -66,6 +66,10 @@ $goldencolor: #c19a45;
             font-size: 1rem;
             width: 12rem;
          }
+        @media (max-width: $large) {
+            font-size: 1.5rem;
+            width: 19rem;
+        }
     }
     @media (max-width: $small) {
         width: 1rem;

@@ -42,6 +42,10 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
       position: relative;
       top: 10rem;
     }
+    @media (max-width: $small) {
+      height: 7rem;
+      width: 10rem;
+    }
   }
   p {
     grid-column: 3;
@@ -60,12 +64,19 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     padding-right: 1rem;
     justify-content: center;
     align-items: center;
+    @media (max-width: $small) {
+      height: 4rem;
+      padding-left: 0rem;
+    }
   }
   .widthp {
     width: 6rem;
     color: white;
     background-color: transparent;
     font-size: 1rem;
+  }
+  @media (max-width: $small) {
+    padding-left: 0rem;
   }
 }
 .text-button {
@@ -81,6 +92,9 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    @media (max-width: $small) {
+      font-size: 0.75rem;
+    }
   }
   .blue-text {
     background-color: transparent;
@@ -88,6 +102,13 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     width: 10rem;
     font-size: 0.7rem;
     margin-top: -1rem;
+    @media (max-width: $small) {
+      font-size: 0.4rem;
+      text-align: left;
+    }
+  }
+  @media (max-width: $small) {
+    padding-right: 0rem;
   }
 }
 h2 {

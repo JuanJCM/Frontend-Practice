@@ -29,14 +29,15 @@ $openSans: "OpenSans", Normal;
          }
         @media (max-width: $small){
             font-size: 2rem;
+            margin-top: -3rem;
         }
     }
     p{
         background-color: transparent;
         color: white;
         font-family: $openSanstext;
-        font-size: 14px;
-        line-height: 15px;
+        //font-size: 14px;
+        //line-height: 15px;
         
         sup{
             background-color: transparent;
@@ -83,7 +84,8 @@ $openSans: "OpenSans", Normal;
     }
     @media (max-width: $small) {
         height: 50rem; 
-        padding: 0rem;       
+        padding: 0rem;    
+
     }
 }
 .textarea{
@@ -124,19 +126,22 @@ $openSans: "OpenSans", Normal;
 }
 
 .sponsorText{
-    line-height: 2rem;
+    line-height: 1.5rem;
     text-align: center;
     justify-content: center;
     align-items: center;
-    width:60%;
-    height: 60%;
-    font-size: 1.11rem;
+    width:46%;
+    height: 80%;
+    font-size: 1.2rem;
     @media (max-width: $large) {
         padding-left: 2rem;
+        width: 80%;
+        font-size: 1rem ;
 
      }
     @media (max-width: $small) {
-        
+        padding-left: 0rem;
+        width: 92%;
     }
 }
 .imgarea{

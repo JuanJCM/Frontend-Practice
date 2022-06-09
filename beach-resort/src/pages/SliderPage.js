@@ -4,7 +4,7 @@ const SliderPage = () => {
   return (
     <div className="SliderPage">
       <div className="leftside">
-        <div className="title">
+        <div className="titleslider">
           <h1 className="bluetitle">A Bar to Match</h1>
           <h1>Every Mood</h1>
         </div>

@@ -9,16 +9,16 @@ $backgroundcolor: white;
   padding-right: 10rem;
   @media (max-width: $large) {
     height: 40rem;
-    grid-template-rows: repeat(2,1fr);
+    grid-template-rows: repeat(2, 1fr);
     padding-left: 1rem;
     padding-right: 1rem;
   }
-  @media(max-width: $small){
-    height: 70rem;  
+  @media (max-width: $small) {
+    height: 70rem;
   }
   .leftside {
     .textmood {
-      .leftsidetextslider{
+      .leftsidetextslider {
         color: black;
         background-color: transparent;
         margin-top: 15px;
@@ -29,7 +29,13 @@ $backgroundcolor: white;
         line-height: 2rem;
         font-size: 1rem;
         justify-content: center;
-        width: 48rem;
+        width: 68%;
+        @media (max-width: $large) {
+          width: 90%;
+        }
+        @media (max-width: $small) {
+          padding-left: 15px;
+        }
       }
     }
     h1 {
@@ -37,6 +43,9 @@ $backgroundcolor: white;
       font-size: 3rem;
       margin-top: 10px;
       padding-left: 40px;
+      @media (max-width: $small) {
+        padding-left: 10px;
+      }
     }
     .bluetitle {
       color: $textcolor;
@@ -49,7 +58,7 @@ $backgroundcolor: white;
       align-items: center;
       text-align: center;
     }
-    @media(max-width: $small){
+    @media (max-width: $small) {
       padding-right: 1rem;
     }
   }
@@ -76,13 +85,13 @@ $backgroundcolor: white;
         width: 42rem;
         height: 15.5rem;
       }
-      @media(max-width: $small){
+      @media (max-width: $small) {
         width: 20rem;
         height: 25rem;
       }
     }
     .lineborder {
-      border: 0.20rem solid white;
+      border: 0.2rem solid white;
       margin-top: 1rem;
       padding-top: 3rem;
       margin-left: 1rem;
@@ -95,10 +104,11 @@ $backgroundcolor: white;
       justify-content: center;
       @media (max-width: $large) {
         flex-direction: row;
-        padding-bottom: 5rem;
+        padding-bottom: 3.5rem;
       }
       @media (max-width: $small) {
         flex-direction: column;
+        padding-bottom: 2.5rem;
       }
     }
     @media (max-width: $large) {
@@ -112,24 +122,24 @@ $backgroundcolor: white;
     grid-column: span 2;
   }
 }
-.textinlogo{
+.textinlogo {
   color: gray;
-  font-family:$openSanstext;
+  font-family: $openSanstext;
   text-align: center;
-  margin-top: 1rem;
   margin-bottom: -0.75rem;
   font-size: 1rem;
   width: 17rem;
   line-height: 1.9rem;
   margin-top: 3rem;
   @media (max-width: $large) {
-    width:25rem;
+    width: 25rem;
     text-align: left;
     font-size: 0.75rem;
     padding-left: 1rem;
+    margin-top: 1rem;
   }
-  @media(max-width: $small){
-    width:15rem;
+  @media (max-width: $small) {
+    width: 15rem;
     padding-top: 2rem;
   }
 }

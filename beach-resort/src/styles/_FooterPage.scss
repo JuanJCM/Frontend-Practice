@@ -9,7 +9,8 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
   width: auto;
   max-width: 100%;
   @media (max-width: $large) {
-    height: 70rem;
+    height: 25rem;
+
   }
 }
 
@@ -41,10 +42,15 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     @media (max-width: $large) {
       position: relative;
       top: 10rem;
+      padding-left: 0rem;
+      margin-top: -20rem;
     }
     @media (max-width: $small) {
       height: 7rem;
-      width: 10rem;
+      width: 13rem;
+      border-radius: 10px;
+      padding-top: 0.5rem;
+      padding-bottom: -2rem;
     }
   }
   p {
@@ -52,7 +58,7 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     width: min-content;
   }
   @media (max-width: $large) {
-    height: 60rem;
+    height: 20rem;
     background-size:cover;
   }
 }
@@ -64,6 +70,10 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     padding-right: 1rem;
     justify-content: center;
     align-items: center;
+    @media (max-width: $large) {
+      height:4rem;
+      padding-left: 0rem;
+    }
     @media (max-width: $small) {
       height: 4rem;
       padding-left: 0rem;
@@ -74,10 +84,22 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     color: white;
     background-color: transparent;
     font-size: 1rem;
+
+    @media (max-width: $large) {
+      font-size: 0.7rem;
+    }
+    @media (max-width: $small) {
+      margin-top: 0rem;
+    }
+  }
+  @media (max-width: $large) {
+     padding-left: 4rem;
+     padding-right: 0rem;
   }
   @media (max-width: $small) {
-    padding-left: 0rem;
+    padding-left: 2rem;
   }
+
 }
 .text-button {
   background-color: transparent;
@@ -92,8 +114,14 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     font-size: 2rem;
     font-weight: bold;
     color: white;
+    @media (max-width: $large) {
+      font-size: 1rem;
+      width:10rem;
+      text-align: left;
+    }
     @media (max-width: $small) {
-      font-size: 0.75rem;
+      font-size: 1rem;
+      width: 7rem;
     }
   }
   .blue-text {
@@ -103,10 +131,13 @@ $backgroundliquor: url("../images/Footer-photo.jpg");
     font-size: 0.7rem;
     margin-top: -1rem;
     @media (max-width: $small) {
-      font-size: 0.4rem;
+      font-size: 0.5rem;
       text-align: left;
       width: 7rem;
     }
+  }
+  @media (max-width: $large) {
+    padding-right: 0rem;
   }
   @media (max-width: $small) {
     padding-right: 0rem;

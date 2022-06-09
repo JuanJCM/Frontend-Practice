@@ -9,7 +9,7 @@ const SliderPage = () => {
           <h1>Every Mood</h1>
         </div>
         <div className="textmood">
-          <p>
+          <p className="leftsidetextslider">
             With unlimited drinks in as many as 15 bars per resort, nobody knows
             how to party like Beaches.
           

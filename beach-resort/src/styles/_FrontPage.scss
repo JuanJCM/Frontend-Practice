@@ -75,6 +75,8 @@ $goldencolor: #c19a45;
         width: 1rem;
         height: 20rem;
         padding: 11.23rem;
+        padding-top: 2rem;
+        padding-bottom: 18rem;
      }
     
 }
@@ -118,6 +120,9 @@ $goldencolor: #c19a45;
 .lines{
     width: 35rem;
     margin: -10px;
+    @media (max-width: $small) {
+        width:20rem;
+    }
 }
 .liquor{
     height: 40rem;

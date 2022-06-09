@@ -1,5 +1,5 @@
 .sliderSectionPage{
-    height: 58rem;
+    height: 85rem;
     background-color: white;
     width: 100%;
     @media (max-width: $large) {
@@ -10,15 +10,16 @@
     }
 }
 .sliderSection{
-    height: 50rem;
+    height: 85rem;
     background-color: white;
     align-items: center;
     text-align: center;
     font-family: $nunitotext;
 
     .swiper-button-next, .swiper-button-prev{
-        margin-left: 15rem;
-        margin-right: 15rem;
+        margin-left: 65rem;
+        margin-right: 65rem;
+        margin-top: 40rem;
         color: black;
         @media (max-width: $large) {
             margin-top: 6rem;

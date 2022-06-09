@@ -10,7 +10,9 @@ $openSans: "OpenSans", Normal;
     height: 70rem;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0;
+    padding: 20rem;
+    padding-top: 0rem;
+    padding-bottom: 3rem;
     align-items: center;
     justify-content: center;    
     display:flex;
@@ -20,9 +22,14 @@ $openSans: "OpenSans", Normal;
         color:$textcolor;
         font-family: 'Nunito', Semibold;
         border-bottom: 1px solid white;
+        font-size: 4.5rem;
         @media (max-width: $large) {
             border-bottom: 0px;
+            font-size: 3rem;
          }
+        @media (max-width: $small){
+            font-size: 2rem;
+        }
     }
     p{
         background-color: transparent;
@@ -72,14 +79,19 @@ $openSans: "OpenSans", Normal;
     }
     @media (max-width: $large) {
         height: 60rem;
+        padding: 0rem;
     }
     @media (max-width: $small) {
-        height: 50rem;        
+        height: 50rem; 
+        padding: 0rem;       
     }
 }
 .textarea{
     justify-content: center;
     align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .lightbox{
     display: flex;
@@ -112,8 +124,23 @@ $openSans: "OpenSans", Normal;
 }
 
 .sponsorText{
+    line-height: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+    height: 60%;
+    font-size: 1.11rem;
     @media (max-width: $large) {
         padding-left: 2rem;
 
      }
+    @media (max-width: $small) {
+        
+    }
+}
+.imgarea{
+    @media (max-width: $small) {
+        padding-left: 2rem;
+    }
 }

@@ -166,6 +166,9 @@ p.Search {
   @media (max-width: $large) {
     padding-right: 5rem;
   }
+  @media (max-width: $small) {
+    padding-right: 2rem;
+  }
 }
 
 .ellipsisicon {

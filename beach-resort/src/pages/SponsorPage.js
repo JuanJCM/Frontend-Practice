@@ -14,7 +14,7 @@ const SponsorPage = () => {
           <sup>
             <span>&#174;</span>
           </sup>
-          experience, Beaches only serves premium brand liquors-and they're
+          {" "}experience, Beaches only serves premium brand liquors-and they're
           always included and unlimited. Quality and excellence are the
           hallmarks of Beaches, making us one of the
           most trusted brands in the world. It's this proven track record and

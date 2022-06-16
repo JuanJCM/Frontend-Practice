@@ -1,0 +1,7 @@
+.ItemSectionComponents{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6.1fr);
+    grid-row: 2;
+}

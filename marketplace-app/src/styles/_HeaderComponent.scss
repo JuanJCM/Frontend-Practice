@@ -1,4 +1,19 @@
 .Header{
     width: 100%;
-    height: 40rem;   
+    height: 5rem;   
+    margin-top: -1.8rem;
+    grid-column: 1/13;
+    text-align: center;
+    justify-content: center;
+    background-color: olivedrab;
+}
+
+.Headertitle{
+    color: wheat;
+    font-size: 2.5rem;
+}
+.shoppingcarticon{
+    height: 4rem;
+    width: 4rem;
+    
 }
